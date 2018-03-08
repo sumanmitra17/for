@@ -29,7 +29,6 @@ namespace TestBetman
 
             TestClassSuite.TestSuite(dr);       //  Call the TestSuite Class by calling object and passing public variables
 
-
         }
 
 
