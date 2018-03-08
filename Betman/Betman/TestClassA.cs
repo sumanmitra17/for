@@ -20,14 +20,14 @@ namespace TestBetman
         {
            // dr = new ChromeDriver();
 
-            //  dr.Manage().Window.Maximize();
+
             IWebDriver dr = new ChromeDriver(@"E:\Suman\Softwares\Cell\Visual Studio\Driver");
             dr.Navigate().GoToUrl("http://172.17.3.13");
+              dr.Manage().Window.Maximize();
 
             //  dr.Manage().Timeouts().ImplicitlyWait(TimeSpan.FromSeconds(5));
 
             TestClassSuite.TestSuite(dr);       //  Call the TestSuite Class by calling object and passing public variables
-
         }
 
 

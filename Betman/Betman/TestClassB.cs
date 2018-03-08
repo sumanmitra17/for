@@ -14,7 +14,7 @@ namespace TestBetman
     [TestFixture]
     public class TestClassB
     {
-        [Test]
+       // [Test]
         public static ArrayList TitleChecking(ArrayList dataRequired)
         {
             IWebDriver dr = (IWebDriver)dataRequired[0];
@@ -43,7 +43,7 @@ namespace TestBetman
             return dataSend;
         }
 
-        [Test]
+     //   [Test]
         public static ArrayList Login_Submission(ArrayList dataRequired)
         {
             IWebDriver dr = (IWebDriver)dataRequired[0];
